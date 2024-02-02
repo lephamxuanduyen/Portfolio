@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import {Routes, Route} from 'react-router-dom'
+import Header from './component/header/header';
+import Home from './component/home/home'
+import Project from './component/project/project'
+import Contact from './component/contact/contact'
 
 function App() {
+  const scrollChangeNavBg = () => {
+    var header = document.querySelector('.header');
+    if (window.scrollY >=20){
+      header.style.backgroundColor = 'linear-gradient(rgba(0,0,0,0.8), rgba(255,255,255,0))';
+    }
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" onScroll={scrollChangeNavBg}>
+        <Header/>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/project' element={<Project/>}/>
+        <Route path='/contact' element={<Contact/>}/>
+      </Routes>
     </div>
   );
 }
