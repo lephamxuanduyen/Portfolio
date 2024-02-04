@@ -7,6 +7,23 @@
   pointer-events: none;
 }
 
+.title {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #ffffff; /* Text color */
+  text-shadow: 
+      0 0 10px #04d9ff, 
+      0 0 20px #04d9ff, 
+      0 0 30px #04d9ff, 
+      0 0 40px #04d9ff; 
+      /* Multiple text shadows for glow */
+  margin-bottom: 50px;
+}
+
+.part{
+  padding: 100px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

@@ -4,6 +4,7 @@ import Header from './component/header/header';
 import Home from './component/home/home'
 import Project from './component/project/project'
 import Contact from './component/contact/contact'
+import Footer from './component/footer/footer'
 
 function App() {
   const scrollChangeNavBg = () => {
@@ -16,10 +17,12 @@ function App() {
     <div className="App" onScroll={scrollChangeNavBg}>
         <Header/>
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route path='/' element={
+        <Home/>}/>
         <Route path='/project' element={<Project/>}/>
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

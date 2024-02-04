@@ -57,5 +57,32 @@
     transform: translate(-50%,-50%);
     font-size: 24px;
     font-weight: 700;
+}
 
+
+
+.about-me{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-me .introduce{
+    width: 50%;
+}
+
+@media screen and (max-width: 910px) {
+    .about-me{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-me .introduce{
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    /* .about-me .img-intro{
+        display: none;
+    } */
 }

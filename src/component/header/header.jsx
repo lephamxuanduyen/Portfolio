@@ -48,7 +48,7 @@ const Header = () => {
         </li>
         <li className="nav-phone-item">
           <i class="fa-regular fa-address-card"></i>
-          <Link to="/contact">Contact</Link>
+          <Link to="/contact">Resume</Link>
         </li>
       </ul>
       </div>
