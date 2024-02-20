@@ -3,6 +3,17 @@ import './home.css'
 import fe from '../../asset/fe.png'
 import ba from '../../asset/ba.png'
 import ava from '../../asset/avatar.png'
+import js from '../../asset/skill/js.png'
+import reactjs from '../../asset/skill/react.png'
+import python from '../../asset/skill/python.png'
+import django from '../../asset/skill/django.png'
+import csharp from '../../asset/skill/csharp.png'
+import sqlserver from '../../asset/skill/sqlserver.png'
+import mysql from '../../asset/skill/mysql.png'
+import sqlite from '../../asset/skill/sqlite.png'
+import git from '../../asset/skill/git.png'
+import figma from '../../asset/skill/figma.png'
+import vs from '../../asset/skill/vs.png'
 
 
 const home = () => {
@@ -40,8 +51,65 @@ const home = () => {
                     <img src={ava} width={'90%'} />
                 </div>
             </div>
-            <div className="skill">
+            <div className="skill part">
                 <div className="title">Languages and Tools</div>
+                <div className="container">
+                    <div className="item">
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/javascript">
+                            <img src={js} alt="" />
+                        </a>
+                    </div>
+                    <div className="item">
+                        <a href="https://react.dev/">
+                            <img src={reactjs} alt="" />
+                        </a>
+                    </div>
+                    <div className="item">
+                        <a href="https://www.python.org/">
+                            <img src={python} alt="" />
+                        </a>
+                    </div>
+                    <div className="item">
+                        <a href="https://www.djangoproject.com/">
+                            <img src={django} alt="" />
+                        </a>
+                    </div>
+                    <div className="item">
+                        <a href="https://en.wikipedia.org/wiki/C_Sharp_%28programming_language%29">
+                            <img src={csharp} alt="" />
+                        </a>
+                    </div>
+                    <div className="item">
+                        <a href="https://git-scm.com/">
+                            <img src={git} alt="" />
+                        </a>
+                    </div>
+                    <div className="item">
+                        <a href="https://www.microsoft.com/en-us/sql-server/sql-server-downloads">
+                            <img src={sqlserver} alt="" />
+                        </a>
+                    </div>
+                    <div className="item">
+                        <a href="https://www.mysql.com/">
+                            <img src={mysql} alt="" />
+                        </a>
+                    </div>
+                    <div className="item">
+                        <a href="https://sqlite.org/index.html">
+                            <img src={sqlite} alt="" />
+                        </a>
+                    </div>
+                    <div className="item">
+                        <a href="https://www.figma.com/">
+                            <img src={figma} alt="" />
+                        </a>
+                    </div>
+                    <div className="item">
+                        <a href="https://code.visualstudio.com/">
+                            <img src={vs} alt="" />
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     );

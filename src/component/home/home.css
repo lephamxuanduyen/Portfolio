@@ -15,7 +15,6 @@
     z-index: 0;
     width: 100vw;
     line-height: 0;
-    /* background-image: url(../../asset/fe.jpg); */
 }
 
 .img-wrap{
@@ -71,6 +70,33 @@
     width: 50%;
 }
 
+.skill .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill .item{
+    width: calc(100% / 6);
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid var(--primaryColor);
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.skill .item:hover{
+    transform: scale(1.05);
+    box-shadow: 
+    0 0 10px var(--primaryColor), 
+    0 0 20px var(--primaryColor);
+}
+
+.skill .item img{
+    width: 72px;
+}
+
 @media screen and (max-width: 910px) {
     .about-me{
         flex-direction: column;
@@ -82,7 +108,8 @@
         margin-bottom: 100px;
     }
 
-    /* .about-me .img-intro{
-        display: none;
-    } */
+    .skill .item{
+        width: calc(100% / 3);
+    }
 }
+

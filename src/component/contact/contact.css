@@ -1,0 +1,22 @@
+#resume .download_btn{
+    background-color: var(--primaryColor);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 0;
+}
+
+#resume .download_btn a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+#resume .resume-img{
+    width: 100%;
+}
+
+.resume-img img{
+    width: 100%;
+    height: 100%;
+}

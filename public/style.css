@@ -13,3 +13,8 @@ body{
     overflow: hidden;
     overflow-y: scroll;
 }
+
+:root{
+    --primaryColor: #04d9ff;
+  }
+  

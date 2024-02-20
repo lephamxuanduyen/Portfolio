@@ -7,14 +7,8 @@ import Contact from './component/contact/contact'
 import Footer from './component/footer/footer'
 
 function App() {
-  const scrollChangeNavBg = () => {
-    var header = document.querySelector('.header');
-    if (window.scrollY >=20){
-      header.style.backgroundColor = 'linear-gradient(rgba(0,0,0,0.8), rgba(255,255,255,0))';
-    }
-  }
   return (
-    <div className="App" onScroll={scrollChangeNavBg}>
+    <div className="App">
         <Header/>
       <Routes>
         <Route path='/' element={
