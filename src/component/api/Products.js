@@ -9,7 +9,7 @@ export class Products extends Component {
             products: []
         }
 
-        this.productAPi = 'https://h3mnyt-8080.csb.app/product'
+        this.productAPi = 'http://localhost:3004/products'
     }
 
     getProduct = async () =>{
@@ -29,7 +29,6 @@ export class Products extends Component {
 
     render() {
         const {products, isLoading} = this.state
-        console.log(products)
         return (
             <div>
                 <div className='products'>
