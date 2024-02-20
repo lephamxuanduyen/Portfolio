@@ -9,7 +9,7 @@ export class Products extends Component {
             products: []
         }
 
-        this.productAPi = 'http://localhost:3004/products'
+        this.productAPi = 'https://product-api-hazel.vercel.app/products'
     }
 
     getProduct = async () =>{
