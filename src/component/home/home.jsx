@@ -1,6 +1,6 @@
 import React from 'react';
 import './home.css'
-// import fe from '../../asset/fe.png'
+import fe from '../../asset/fe.png'
 // import ba from '../../asset/ba.png'
 import ava from '../../asset/avatar.png'
 import js from '../../asset/skill/js.png'
@@ -31,17 +31,17 @@ const home = () => {
     //     imgWrap.style.width = boxWidth;
     //     line.style.left = boxWidth
     // }
-            // <div className="img-box" onMouseMove={(e) => imgChangeEffect(e)}>
-            //     <img src={fe} alt="" />
-            //     <div className="img-wrap">
-            //         <img src={ba} alt=""  id="originalImg"/>
-            //     </div>
-            //     <div className="line">
-            //         <div className="arrow">&lt;&gt;</div>
-            //     </div>
-            // </div>
+    //     <div className="img-wrap">
+    //         <img src={ba} alt=""  id="originalImg"/>
+    //     </div>
+    //     <div className="line">
+    //         <div className="arrow">&lt;&gt;</div>
+    //     </div>
     return (
         <div className='homepage'>
+            <div className="img-box">
+                <img src={fe} alt="" />
+            </div>
             <div className="about-me part">
                 <div className="introduce">
                     <div className="title">About me</div>

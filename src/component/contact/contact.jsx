@@ -18,7 +18,6 @@ const contact = () => {
                 </button>
             </div>
             <div className="contact">
-                <div className="title">Contact</div>
                 <form action="">
                 </form>
             </div>
