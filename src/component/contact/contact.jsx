@@ -8,13 +8,13 @@ const contact = () => {
             <div id="resume">
                 <div className="title">My Resume</div>
                 <button className="download_btn">
-                    <a href="https://drive.google.com/file/d/1aYB7mJvfcywN4cQL-df-eSOxpZYAosIf/view?usp=sharing" target="_blank">Download</a>
+                    <a href="https://drive.google.com/file/d/1aqDOgzFHfn2S2xkP6_W84L20QLI2bcMb/view?usp=sharing" target="_blank">Download</a>
                 </button>
                 <div className="resume-img">
                     <img src={cv_img} alt="" />
                 </div>
                 <button className="download_btn">
-                    <a href="https://drive.google.com/file/d/1aYB7mJvfcywN4cQL-df-eSOxpZYAosIf/view?usp=sharing" target="_blank">Download</a>
+                    <a href="https://drive.google.com/file/d/1aqDOgzFHfn2S2xkP6_W84L20QLI2bcMb/view?usp=sharing" target="_blank">Download</a>
                 </button>
             </div>
             <div className="contact">

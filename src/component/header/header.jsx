@@ -22,7 +22,7 @@ const Header = () => {
           <li className="nav-item">
             <Link to="/contact" className="nav-item">
             <i class="fa-regular fa-address-card"></i>
-              Contact
+              Resume
               </Link>
           </li>
         </ul>
